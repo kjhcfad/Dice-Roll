@@ -1,15 +1,27 @@
+/* Root defines variables we're going to use throughout the site. */
+/* This means that we don't have to copy the hex, we can just copy the colour name. */
+
+:root {
+  --jet-black: #2c363fff;
+  --blush-rose: #e75a7cff;
+  --ivory: #f2f5eaff;
+  --dust-grey: #d6dbd2ff;
+  --dry-sage: #bbc7a4ff;
+}
+
 body {
-  background-color: #F5F5F7;
+  background-color: jet-black;
 }
 
 h1 {
-  color: rgb(29, 29, 31);
+  color: var(--blush-rose);
   text-align: center;
 }
 
 p {
   font-family: "Inter", sans-serif;
   font-size: 20px;
+  color: #F2F5EA;
 }
 
 .box {
@@ -18,3 +30,5 @@ p {
     background: rgb(29, 29, 31);
     border-radius: 12px;
 }
+
+
