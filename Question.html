@@ -1,6 +1,10 @@
 <!doctype=html>
 
+<p id="output"></p>
+
 <script>
 	let sides = prompt('How many sides do you want?')
-	document.write (sides)
+	document.write ("Input = " + sides);
+	document.getElementById("output").innerHTML =
+	"You rolled a " + Math.floor(Math.random() * sides); 
 </script>
