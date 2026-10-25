@@ -11,3 +11,10 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
+.box {
+    width: 1500px;
+    height: 100px;
+    background: darkblue;
+    border-radius: 12px;
+}
