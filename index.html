@@ -1,44 +1,48 @@
 <!DOCTYPE HTML>
-	<html>
-		<head>
 
-			<link rel="preconnect" href="https://fonts.googleapis.com">
+<html>
+	<head>
 
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
 
-			<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-			<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="styles.css">
 
 			<title>Dice Roll LTD.</title>
 
 	  		<script src="https://cdn.jsdelivr.net/npm/animejs@4.5.0/dist/bundles/anime.umd.min.js"></script>
 
-	  	</head>
+	</head>
 
 
 	<body>
-<h1>Dice Roll LTD.</h1>
-<div class="box"></div>
-<p id="output"></p>
 
-<script>
-	let sides = prompt('How many sides do you want?')
-	document.write ("Input = " + sides);
-	document.getElementById("output").innerHTML =
-	"You rolled a " + (Math.floor(Math.random() * sides) +1 ); 
-</script>
+		<h1>Dice Roll LTD.</h1>
 
-<script>
-    const { animate } = anime;
+		<div class="box"></div>
 
-    animate('.box', {
-        opacity: [0, 1],
-        y: [50, 0],
-        duration: 1000,
-        ease: 'outExpo'
-    });
-</script>
+		<p id="output"></p>
+
+	<script>
+		let sides = prompt('How many sides do you want?')
+		document.write ("Input = " + sides);
+		document.getElementById("output").innerHTML =
+		"You rolled a " + (Math.floor(Math.random() * sides) +1 ); 
+	</script>
+
+	<script>
+    	const { animate } = anime;
+
+    	animate('.box', {
+    	    opacity: [0, 1],
+        	y: [50, 0],
+        	duration: 1000,
+        	ease: 'outExpo'
+   		 });
+	</script>
 
 </body>
 </html>
