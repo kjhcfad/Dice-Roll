@@ -13,7 +13,7 @@ p {
 }
 
 .box {
-    width: 1500px;
+    width: 100px;
     height: 100px;
     background: darkblue;
     border-radius: 12px;
