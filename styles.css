@@ -32,3 +32,23 @@ p {
 }
 
 /* Some random ass change */
+
+/* Notes on CSS 
+
+  There are two parts, selectors and properties
+
+  Selectors are how you select elements in the HTML
+
+  Keep styles simple
+
+  #id > .class > div
+
+  Two most important categories: Colour and Layout
+
+  CSS is based on the box model - Content, Padding, Border, Margin
+
+  Padding: Clockwise - Top, Right, Bottom, Left
+
+*/
+
+
